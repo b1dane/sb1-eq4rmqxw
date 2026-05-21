@@ -88,7 +88,7 @@ function App() {
           </div>
 
           {/* Card */}
-          <div className="bg-[#111111] border border-white/[0.06] rounded-2xl p-8 shadow-2xl shadow-black/40">
+          <div className="bg-[#111111] border border-white/[0.06] rounded-2xl p-8 min-h-[400px] shadow-2xl shadow-black/40">
             {status === 'success' ? (
               <div className="flex flex-col items-center py-8 text-center">
                 <div className="w-16 h-16 rounded-full bg-emerald-500/10 flex items-center justify-center mb-5">
