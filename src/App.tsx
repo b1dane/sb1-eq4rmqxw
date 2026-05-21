@@ -82,7 +82,7 @@ function App() {
               Capture Every{' '}
               <span className="text-amber-500">Opportunity</span>
             </h1>
-            <p className="text-gray-400 text-lg leading-relaxed max-w-md mx-auto">
+            <p className="text-gray-200 text-lg leading-relaxed max-w-md mx-auto">
               Submit your details and let us connect you with the right service. Fast, simple, seamless.
             </p>
           </div>
@@ -95,7 +95,7 @@ function App() {
                   <CheckCircle className="w-9 h-9 text-emerald-500" />
                 </div>
                 <h2 className="text-2xl font-semibold mb-2">Lead Captured</h2>
-                <p className="text-gray-400 mb-6">
+                <p className="text-gray-200 mb-6">
                   We received your information. Our team will reach out shortly.
                 </p>
                 <button
@@ -178,7 +178,7 @@ function App() {
                       onChange={(e) => updateField('service', e.target.value)}
                       className="w-full bg-[#0a0a0a] border border-white/10 rounded-xl pl-11 pr-4 py-3 text-white appearance-none focus:outline-none focus:ring-2 focus:ring-amber-500/40 focus:border-amber-500/50 transition-all cursor-pointer"
                     >
-                      <option value="" disabled className="text-gray-600">
+                      <option value="" disabled className="text-gray-400">
                         Select a service
                       </option>
                       {SERVICES.map((s) => (
@@ -226,7 +226,7 @@ function App() {
           </div>
 
           {/* Footer note */}
-          <p className="text-center text-gray-600 text-xs mt-6">
+          <p className="text-center text-gray-400 text-xs mt-6">
             Your information is secure and will never be shared with third parties.
           </p>
         </div>
