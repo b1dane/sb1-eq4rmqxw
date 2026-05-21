@@ -41,7 +41,7 @@ function App() {
     setErrorMessage('');
 
     const { error } = await supabase.from('leads').insert({
-      name: form.name.trim(),
+      full_name: form.name.trim(),
       phone: form.phone.trim(),
       email: form.email.trim(),
       service: form.service,
